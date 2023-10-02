@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Age Calculator</title>
+</head>
+
+<body>
+  <div id="main-wrapper">
+    <header>
+      <h1>Age Calculator</h1>
+
+    </header>
+
+    <form id="form">
+      <h3>Type in your date of birth and see how long you have lived</h3>
+      <input type="text" name="year" id="year" required placeholder="year" maxlength="4"
+        pattern="19[1-9]\d|20[0-1]\d|2022" title="Please enter a valid 4-digit year">
+      <input type="text" name="month" id="month" required placeholder="month" maxlength="2" pattern="[1-9]|1[0-2]" ;
+        title="Please enter a valid month from 1 to 12">
+      <input type="text" name="day" id="day" required placeholder="day" maxlength="2" pattern="[1-9]|[12]\d|3[01]" ;
+        title="Please enter a valid day from 1 to 31 according to the month">
+      <div id="button-bar"> <button type="submit">Calculate</button> <button id="resetBtn">Reset</button> </div>
+      <div id="result"></div>
+    </form>
+ 
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>

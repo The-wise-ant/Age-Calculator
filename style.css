@@ -1,0 +1,87 @@
+body{background-color: #9966ff;}
+
+h1{
+  margin-bottom: 0px;
+  color: white;
+}
+#main-wrapper {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+form {
+  margin: 20px 0;
+  background-color: #6600cc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+form h3 {
+  text-align: center;
+  font-size: larger;
+  font-size: 25px;
+  color: white;
+}
+
+form input{
+
+padding: 5px;
+border-radius: 10px;
+font-size: larger;
+background-color: #9966ff;
+color: white;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+form input:focus,
+form input:-webkit-autofill {
+  outline: none; 
+  background-color: #9966ff; 
+}
+
+form input::placeholder {
+  background-color: #9966ff;
+color: white;
+}
+
+#button-bar {
+margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  #button-bar button{
+
+ 
+    padding: 10px;
+    border-radius: 10px;
+    font-size: larger;
+    background-color: gold;
+    color: white;
+    font-weight: bold;
+    margin: 0 10px ;
+    min-width: 120px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+
+
+form div {
+  margin: 20px 0;
+}
+
+
+#result {
+  margin: 0;
+  margin-top: 30px;
+  
+  color: white;
+  font-size: larger;
+  align-content: center;
+
+
+}
